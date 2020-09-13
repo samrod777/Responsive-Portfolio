@@ -15,5 +15,31 @@ body {
 
 .container{
     background-color: white;
+    padding: 30px 20px 30px 20px;
+    margin: 100px 15px 50px 20px;
+    /* float: left; */
+}
+/* .container::after{
+    content: " ";
+    clear: both; */
+
 }
 
+.form-group{
+    margin-right: 100px;
+    font-size: 50px;
+}
+/* 
+.footer{
+    background-color: teal;
+} */
+
+.footer {
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 50px;
+    background-color: blue;
+    position: absolute; 
+    /* clear: both; //clearing previous divs */
+}
