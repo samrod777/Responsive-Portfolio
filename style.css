@@ -24,13 +24,17 @@ body {
     font-size: 20px;
 }
 
+.placeholder{
+    margin: 20px 20px 20px 0;
+}
+
 .footer {
     left: 0px;
     right: 0px;
     bottom: 0px;
     height: 50px;
     background-color: blue;
-    position: absolute; 
+    position: relative; 
     border-top: 10px solid black;
-    /* clear: both; //clearing previous divs */
+    clear: both; //clearing previous divs
 }
