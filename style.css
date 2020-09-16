@@ -5,27 +5,56 @@
 } */
 
 body {
-    background-color: tomato;
+    background-color: peachpuff;
+
 }
 
+h1{
+    color: darkturquoise;
+}
+
+h2{
+    color: lightgray;
+    font-size: 15px;
+}
+
+p{
+    font-size: 20px;
+}
 
 .navbar-brand{
     background-color: turquoise;
+    font-size: 30px;
+   
+}
+
+
+.float-left{
+        display: flex;  
+        flex-wrap: wrap;
+        margin-right: 20px;
+        margin-bottom: 20px;
+}
+.container-main{
+   margin: 100px 15px 100px 15px;
+
 }
 
 .container{
     background-color: white;
-    padding: 30px 20px 30px 20px;
-    margin: 100px 15px 50px 20px;
+    /* margin: auto; */
+    padding: 30px 0 30px 20px;
+    /* margin: 100px 15px 50px 20px; */
 }
 
 .form-group{
     margin-left: 20px;
+    margin-right: 20px;
     font-size: 20px;
 }
 
 .placeholder{
-    margin: 20px 20px 20px 0;
+    margin: 15px 15px 15px 15px;
 }
 
 .footer {
@@ -33,8 +62,10 @@ body {
     right: 0px;
     bottom: 0px;
     height: 50px;
-    background-color: blue;
-    position: relative; 
-    border-top: 10px solid black;
+    margin-top: 100px;
+    background-color: darkgray;
+    position: fixed; 
+    border-top: 10px solid lightblue;
+    text-align: center;
     clear: both; //clearing previous divs
 }
