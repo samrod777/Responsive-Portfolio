@@ -1,15 +1,22 @@
 
 /* Universal style */
+html {
+    height: 100%;
+  }
+
 body {
     background-color: darkgray;
+    min-height: 100%;
+    padding-bottom: 30px;
+    position: relative;
 }
 
 .background{
-    background-color: peachpuff;
+    background-color: darkgray;
 }
 
 h1{
-    color: darkturquoise;
+    color: darkslateblue;
 }
 
 h2{
@@ -22,30 +29,28 @@ p{
 }
 
 .navbar-brand{
-    background-color: turquoise;
+    background-color: rgb(232, 243, 242);
     font-size: 30px;
 }
 
-/* .container-main{
-   margin: 100px 15px 100px 15px;
-} */
-
 .container{
-    /* background-color: white; */
-    padding: 30px 0 30px 20px;
+   padding: 30px 0 30px 20px;
 }
 
-.footer {
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    height: 70px;
-    background-color: darkgray;
-    /* position: fixed;  */
-    border-top: 10px solid lightblue;
+footer {
+    clear: both;
+    color: rgb(238, 225, 225);
+    background-color: rgb(7, 6, 6);
+    padding: 10px;
     text-align: center;
-    clear: both; //clearing previous divs
-}
+    border-top-style: solid;
+    border-top-color: blueviolet;
+    border-top-width: 5px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+  }
 
 /* index "About Me" page style */
 .float-left{
@@ -61,13 +66,15 @@ p{
     margin-right: 20px;
     font-size: 20px;
 }
+.btn {
+    margin-bottom: 2rem;
+}
+
 
 /* Porfolio page style */
 .placeholder{
     margin: 15px 15px 15px 15px;
     width: 100%;
 }
-.content{
-    background-color: white;
-}
+
 
